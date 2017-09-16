@@ -12,6 +12,11 @@ class mainpsvm
       Downloader dlr = new Downloader();
       Extra e= new Extra();
       ExtraItem ei= new ExtraItem();
+      Facility fcl= new Facility();
+      File fl= new file();
+      GroupLeader gl= new GroupLeader();
+      Guest g=new Guest();
+      
       
       
   }
