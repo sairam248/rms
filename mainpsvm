@@ -16,9 +16,11 @@ class mainpsvm
       File fl= new file();
       GroupLeader gl= new GroupLeader();
       Guest g=new Guest();
-      
-      
-      
+      Housed hs = new Housed();
+      Payments p=new Payments();
+      Structure str=new Structure();
+      User u=new User();
+      UserAware ua=new UserAware();
   }
 }
     
