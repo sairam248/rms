@@ -43,7 +43,6 @@ public class Structure implements Serializable {
 	@Field
 	private String taxNumber;
 	
-	private List<Image> images;
 	private List<Facility> facilities;
 	
 	
@@ -113,12 +112,6 @@ public class Structure implements Serializable {
 	}
 	public void setNotes(String notes) {
 		this.notes = notes;
-	}
-	public List<Image> getImages() {
-		return images;
-	}
-	public void setImages(List<Image> images) {
-		this.images = images;
 	}
 	public List<Facility> getFacilities() {
 		return facilities;
