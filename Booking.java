@@ -259,12 +259,6 @@ public class Booking implements Serializable{
 	public void setNrGuests(Integer nrGuests) {
 		this.nrGuests = nrGuests;
 	}
-	public Room getRoom() {
-		return room;
-	}
-	public void setRoom(Room room) {
-		this.room = room;
-	}
 	public Date getDateIn() {
 		return dateIn;
 	}
@@ -294,12 +288,6 @@ public class Booking implements Serializable{
 	}
 	public void setExtraSubtotal(Double extraSubtotal) {
 		this.extraSubtotal = extraSubtotal;
-	}
-	public Double getRoomSubtotal() {
-		return roomSubtotal;
-	}
-	public void setRoomSubtotal(Double roomSubtotal) {
-		this.roomSubtotal = roomSubtotal;
 	}
 	public List<Adjustment> getAdjustments() {
 		return adjustments;
@@ -356,12 +344,6 @@ public class Booking implements Serializable{
 	}
 	public void setId_convention(Integer id_convention) {
 		this.id_convention = id_convention;
-	}
-	public Integer getId_room() {
-		return id_room;
-	}
-	public void setId_room(Integer id_room) {
-		this.id_room = id_room;
 	}
 	public List<Housed> getHousedList() {
 		return housedList;
