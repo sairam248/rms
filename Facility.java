@@ -72,12 +72,7 @@ public class Facility implements Serializable{
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public Image getImage() {
-		return image;
-	}
-	public void setImage(Image image) {
-		this.image = image;
-	}
+	
 	
 	
 
